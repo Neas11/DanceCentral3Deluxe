@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #e60073;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.character-card {
+    background: #222;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.character-card:hover {
+    background: #e60073;
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+.bio {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bio h2 {
+    color: #e60073;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.bio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio li {
+    margin: 8px 0;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+**** VENUE *******
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #008080;
+}
+
+.venue-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.venue-card {
+    background: #222;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.venue-card:hover {
+    background: #008080;
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+.bio {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bio h2 {
+    color: #e60073;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.bio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio li {
+    margin: 8px 0;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
