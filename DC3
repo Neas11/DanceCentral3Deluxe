@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dance Central 3 Deluxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dance Central 3 Deluxe</h1>
+    <p>Select a character to view their gallery</p>
+</header>
+
+<main class="character-grid">
+
+    <a href="characters/bodie.html" class="character-card">
+        <h2>Bodie</h2>
+    </a>
+
+    <a href="characters/taye.html" class="character-card">
+        <h2>Taye</h2>
+    </a>
+
+    <a href="characters/miss-aubrey.html" class="character-card">
+        <h2>Miss Aubrey</h2>
+    </a>
+
+    <a href="characters/glitch.html" class="character-card">
+        <h2>Glitch</h2>
+    </a>
+
+    <a href="characters/emilia.html" class="character-card">
+        <h2>Emilia</h2>
+    </a>
+
+    <a href="characters/li'l-t.html" class="character-card">
+        <h2>Li'l T</h2>
+
+    <a href="characters/mo.html" class="character-card">
+        <h2>Mo</h2>
+    </a>
+
+    <a href="characters/angel.html" class="character-card">
+        <h2>Angel</h2>
+    </a>
+
+    <a href="characters/dare.html" class="character-card">
+        <h2>Dare</h2>
+    </a>
+
+    <a href="characters/maccoy.html" class="character-card">
+        <h2>MacCoy</h2>
+    </a>
+
+    <a href="characters/oblio.html" class="character-card">
+        <h2>Oblio</h2>
+    </a>
+
+    <a href="characters/dr.-tan.html" class="character-card">
+        <h2>Dr. Tan</h2>
+    </a>
+
+    <a href="characters/jaryn.html" class="character-card">
+        <h2>Jaryn</h2>
+    </a>
+
+    <a href="characters/kerith.html" class="character-card">
+        <h2>Kerith</h2>
+    </a>
+
+    <a href="characters/rasa.html" class="character-card">
+        <h2>Rasa</h2>
+    </a>
+
+    <a href="characters/lima.html" class="character-card">
+        <h2>Lima</h2>
+    </a>
+
+    <a href="characters/shinju.html" class="character-card">
+        <h2>Shinju</h2>
+    </a>
+
+    <a href="characters/kichi.html" class="character-card">
+        <h2>Kichi</h2>
+    </a>
+
+    <a href="characters/marcos.html" class="character-card">
+        <h2>Marcos</h2>
+    </a>
+
+    <a href="characters/frenchy.html" class="character-card">
+        <h2>Frenchy</h2>
+    </a>
+
+    <a href="characters/cyph-56.html" class="character-card">
+        <h2>CYPH-56</h2>
+    </a>
+
+    <a href="characters/cyph-78.html" class="character-card">
+        <h2>CYPH-78</h2>
+    </a>
+
+    <a href="characters/cyph-elite.html" class="character-card">
+        <h2>CYPH-ELITE</h2>
+    </a>
+</main>
+
+<header>
+    <h1>Dance Central 3 Deluxe</h1>
+    <p>Select a venue to view their gallery</p>
+</header>
+
+<main class="venue-grid">
+
+    <a href="venues/dci-hq.html" class="venue-card">
+        <h2>DCI HQ</h2>
+    </a>
+
+    <a href="venues/free-skate.html" class="venue-card">
+        <h2>Free Skate</h2>
+    </a>
+
+    <a href="venues/toprock-ave..html" class="venue-card">
+        <h2>Toprock Ave.</h2>
+    </a>
+
+    <a href="venues/invite-only.html" class="venue-card">
+        <h2>Invite Only</h2>
+    </a>
+
+    <a href="venues/studio-675.html" class="venue-card">
+        <h2>Studio 675</h2>
+    </a>
+
+    <a href="venues/crow's-nest.html" class="venue-card">
+        <h2>Crow's Nest</h2>
+
+    <a href="venues/high-tide.html" class="venue-card">
+        <h2>High Tide</h2>
+    </a>
+
+    <a href="venues/tee-off.html" class="venue-card">
+        <h2>Tee Off</h2>
+    </a>
+
+    <a href="venues/set-adrift.html" class="venue-card">
+        <h2>Set Adrift</h2>
+    </a>
+
+    <a href="venues/lowdown.html" class="venue-card">
+        <h2>Lowdown</h2>
+    </a>
+
+    <a href="venues/penthaus.html" class="venue-card">
+        <h2>Penthaus</h2>
+    </a>
+
+    <a href="venues/the-airship.html" class="venue-card">
+        <h2>The Airship</h2>
+    </a>
+
+    <a href="venues/the-airship-dark.html" class="venue-card">
+        <h2>The Airship Dark</h2>
+    </a>
+
+    <a href="venues/black-venue.html" class="venue-card">
+        <h2>Black Venue</h2>
+    </a>
+
+    <a href="venues/glitterati-chairs.html" class="venue-card">
+        <h2>Glitterati Chairs</h2>
+    </a>
+
+    <a href="venues/dci-elevator.html" class="venue-card">
+        <h2>DCI Elevator</h2>
+    </a>
+</main>
+
+</body>
+</html>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #e60073;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.character-card {
+    background: #222;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.character-card:hover {
+    background: #e60073;
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+.bio {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bio h2 {
+    color: #e60073;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.bio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio li {
+    margin: 8px 0;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+**** VENUE *******
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #008080;
+}
+
+.venue-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.venue-card {
+    background: #222;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.venue-card:hover {
+    background: #008080;
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+.bio {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bio h2 {
+    color: #e60073;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.bio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio li {
+    margin: 8px 0;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
