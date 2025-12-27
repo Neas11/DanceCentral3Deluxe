@@ -35,15 +35,36 @@ header {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    padding: 30px;
+    /* Creates responsive columns: at least 250px wide, 1fr otherwise */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 10px; /* Space between grid items */
+    padding: 10px;
+}
+
+.gallery-item {
+    position: relative; /* Essential for positioning the label inside */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Ensures no content spills out, good for hover effects */
 }
 
 .gallery img {
-    width: 100%;
-    border-radius: 10px;
+    display: block; /* Prevents extra space below the image */
+    width: 100%; /* Makes image responsive within its container */
+    height: auto;
 }
+
+.image-label {
+    position: absolute; /* Position the label over the image */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
 .bio {
     max-width: 800px;
     margin: 30px auto;
@@ -161,5 +182,4 @@ header {
 .back-link:hover {
     text-decoration: underline;
 }
-
 
