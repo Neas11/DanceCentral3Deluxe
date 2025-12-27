@@ -161,4 +161,76 @@ header {
 .back-link:hover {
     text-decoration: underline;
 }
+/*** IMAGE CAPTION*****/
+.image-with-caption {
+  /* Center the image and caption horizontally within its parent container */
+  text-align: center;
+  /* Adjust margins as needed */
+  margin: 10px; 
+  /* Make the figure an inline-block element so it wraps around its content 
+  and can be centered on a page if needed */
+  display: inline-block; 
+}
 
+.image-with-caption img {
+  /* Add a border to the image itself */
+  border: 2px solid #333; 
+  /* Optional: add some padding between the border and the image content */
+  padding: 5px;
+  /* Ensure the image doesn't take up full width, allowing centering */
+  display: block; 
+  margin: 0 auto; /* Centers the image if the figure is wider */
+}
+
+.image-with-caption figcaption {
+  /* Center the caption text (inherited from figure, but good practice to be explicit) */
+  text-align: center;
+  /* Optional: add styling for the caption (e.g., font size, color, margin) */
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px; /* Space between image and caption */
+}
+Complete Example
+Here is a complete, working example you can copy and paste into an HTML file:
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Centered Label and Border</title>
+    <style>
+        .image-with-caption {
+            text-align: center;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .image-with-caption img {
+            border: 4px solid blue; /* Custom border: 4px solid blue */
+            padding: 5px;
+            display: block;
+            margin: 0 auto; 
+            max-width: 100%; /* Ensures image is responsive */
+            height: auto;
+        }
+
+        .image-with-caption figcaption {
+            text-align: center;
+            font-size: 1em;
+            color: #333;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <figure class="image-with-caption">
+        <!-- Replace 'your-image.jpg' with your image file path -->
+        <img src="picsum.photos" alt="A cute dog">
+        <figcaption>A cute dog with a blue border</figcaption>
+    </figure>
+
+</body>
+</html>
