@@ -50,7 +50,7 @@ header {
 
 .gallery img {
     display: block; /* Prevents extra space below the image */
-    width: 80%; /* Makes image responsive within its container */
+    width: 100%; /* Makes image responsive within its container */
     height: auto;
    
 }
@@ -69,14 +69,20 @@ header {
 
 .bio {
     max-width: 800px;
+   
     margin: 30px auto;
     background: #1c1c1c;
     padding: 25px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .bio h2 {
     color: #e60073;
+    margin-bottom: 10px;
+}
+
+.bio h2 {
     margin-bottom: 10px;
 }
 
@@ -90,7 +96,7 @@ header {
 }
 
 .bio li {
-    margin: 8px 0;
+    margin: 8px;
 }
 
 .back-link {
